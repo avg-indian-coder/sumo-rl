@@ -43,7 +43,7 @@ if __name__ == "__main__":
     prs.add_argument("-runs", dest="runs", type=int, default=1, help="Number of runs.\n")
     args = prs.parse_args()
     experiment_time = str(datetime.now()).split(".")[0]
-    out_csv = f"outputs/single-intersection/{experiment_time}_alpha{args.alpha}_gamma{args.gamma}_eps{args.epsilon}_decay{args.decay}"
+    out_csv = f"outputs/single-intersection/{experiment_time}_alpha{args.alpha}_gamma{args.gamma}_eps{args.epsilon}_decay{args.decay}".replace(":","_")
 
     env = SumoEnvironment(
         net_file="nets/single-intersection/single-intersection.net.xml",

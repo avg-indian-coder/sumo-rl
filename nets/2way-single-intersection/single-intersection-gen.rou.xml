@@ -10,7 +10,8 @@
                 <route id="route_es" edges="e_t t_s"/>
                 <route id="route_sn" edges="s_t t_n"/>
                 <route id="route_se" edges="s_t t_e"/>
-                <route id="route_sw" edges="s_t t_w"/><flow id="flow_ns_0" route="route_ns" begin="0" end="100000" vehsPerHour="100" departSp100000d="max" departPos="base" departLane="best"/>
+                <route id="route_sw" edges="s_t t_w"/>
+    <flow id="flow_ns_0" route="route_ns" begin="0" end="100000" vehsPerHour="100" departSp100000d="max" departPos="base" departLane="best"/>
     <flow id="flow_nw_0" route="route_nw" begin="0" end="100000" vehsPerHour="100" departSp100000d="max" departPos="base" departLane="best"/>
     <flow id="flow_ne_0" route="route_ne" begin="0" end="100000" vehsPerHour="200" departSp100000d="max" departPos="base" departLane="best"/>
     <flow id="flow_sw_0" route="route_sw" begin="0" end="100000" vehsPerHour="200" departSp100000d="max" departPos="base" departLane="best"/>

@@ -34,9 +34,7 @@ def env(**kwargs):
     env = wrappers.OrderEnforcingWrapper(env)
     return env
 
-
 parallel_env = parallel_wrapper_fn(env)
-
 
 class SumoEnvironment(gym.Env):
     """SUMO Environment for Traffic Signal Control.
